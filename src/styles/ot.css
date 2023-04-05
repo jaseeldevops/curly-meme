@@ -1,0 +1,25 @@
+.otA {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/background/bg5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8%;
+}
+.otAa {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+}
+.otAb {
+  font-size: 74px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}

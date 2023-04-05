@@ -1,58 +1,3 @@
-.hmA {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 70px;
-  backdrop-filter: blur(5px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #0000001a;
-  padding: 0 4%;
-}
-.hmAa {
-  width: 70px;
-  height: 70px;
-  background-image: url(../assets/icons/myLogo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.hmAb {
-  display: flex;
-  align-items: center;
-  color: #ffffffc9;
-  font-size: 20px;
-}
-.hmAbA {
-  padding: 0 30px;
-  cursor: pointer;
-}
-.hmAbA:hover {
-  color: #6b8163;
-}
-.hmAbB {
-  padding: 10px 25px;
-  margin-left: 20px;
-  padding-bottom: 12px;
-  border-radius: 22px;
-  background-color: #6b8163;
-  cursor: pointer;
-}
-@media only screen and (max-width: 800px) {
-  .hmAbA {
-    display: none;
-  }
-  .hmAbB {
-    font-size: 16px;
-  }
-}
-/* //////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////// */
 .hmB {
   position: fixed;
   top: 0;
@@ -183,11 +128,20 @@
   min-width: 800px;
   height: 570px;
   margin: 0 40px;
-  background-image: url(../assets/background/bg1.png);
+  background-image: url(../assets/c1/0.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: white;
+}
+.hmE .c11 {
+  background-image: url(../assets/c1/1.png);
+}
+.hmE .c12 {
+  background-image: url(../assets/c1/2.png);
+}
+.hmE .c13 {
+  background-image: url(../assets/c1/3.png);
 }
 .hmEbA {
   display: flex;
@@ -228,6 +182,49 @@
   font-size: 24px;
   font-weight: 300;
 }
+@media only screen and (max-width: 800px) {
+  .hmEa {
+    width: 260px;
+    min-width: 260px;
+  }
+  .hmEaA {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 36px;
+  }
+  .hmEaB {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .hmEb {
+    width: 400px;
+    min-width: 400px;
+    height: 300px;
+    margin: 0 20px;
+  }
+  .hmEbA {
+    padding: 30px;
+    padding-bottom: 0;
+  }
+  .hmEbAa {
+    min-width: 50px;
+    font-size: 32px;
+  }
+  .hmEbAb {
+    height: 33px;
+    width: 20px;
+  }
+  .hmEbB {
+    padding: 30px;
+  }
+  .hmEbBa {
+    font-size: 25px;
+    padding: 20px 0;
+  }
+  .hmEbBb {
+    font-size: 16px;
+  }
+}
 /* //////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////// */
@@ -235,13 +232,12 @@
 /* //////////////////////////////////////////////////////////////////// */
 .hmG {
   width: 100%;
-  height: 50vw;
   background-image: url(../assets/background/bg2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: white;
-  padding: 5%;
+  padding: 21vw 5%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -255,6 +251,15 @@
   font-size: 30px;
   text-align: center;
   padding: 20px 50px;
+}
+@media only screen and (max-width: 800px) {
+  .hmGa {
+    font-size: 40px;
+  }
+  .hmGb {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
 }
 /* //////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////// */
@@ -319,10 +324,25 @@
   background-color: rgb(153, 124, 124);
   display: flex;
   align-items: end;
-  background-image: url(../assets/background/bg2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-image: url(../assets/c2/0.png);
+}
+.hmHd .c21 {
+  background-image: url(../assets/c2/1.png);
+}
+.hmHd .c22 {
+  background-image: url(../assets/c2/2.png);
+}
+.hmHd .c23 {
+  background-image: url(../assets/c2/3.png);
+}
+.hmHd .c24 {
+  background-image: url(../assets/c2/4.png);
+}
+.hmHd .c25 {
+  background-image: url(../assets/c2/5.png);
 }
 .hmHdAa {
   width: 100%;
@@ -395,31 +415,89 @@
   padding: 90px 0;
   border-bottom: 2px solid rgb(208, 208, 208);
 }
-/* //////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////// */
-.hmJ {
-  background-color: white;
+@media only screen and (max-width: 800px) {
+  .hmHa {
+    font-size: 22px;
+    border-bottom: 2px solid #6b8163;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .hmHc {
+    margin: 40px 0;
+  }
+  .hmHcA {
+    width: 40px;
+    font-size: 34px;
+  }
+  .hmHcB {
+    width: calc(100% - 50px);
+    font-size: 16px;
+    padding-top: 2px;
+  }
+
+  .hmHcBb {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hmHcBbA {
+    padding-bottom: 10px;
+    width: 70%;
+    font-size: 12px;
+  }
+  .hmHcBbAa {
+    width: 12px;
+    min-width: 12px;
+    height: 12px;
+    background-color: #09a503;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 6px;
+  }
+  .hmHdA {
+    margin: 20px;
+    width: 100%;
+    height: 90vw;
+  }
+  .hmHdAa {
+    height: 60px;
+    font-size: 18px;
+  }
+  /* ///////////////////////////////////////////// */
+  .hmHeA {
+    margin: 25px;
+    width: calc(100% - 50px);
+  }
+  .hmHeAa {
+    font-size: 16px;
+  }
+  .hmHeAaA {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .hmHeAaC {
+    min-width: 100px;
+  }
+  .hmHeAb {
+    height: 60vw;
+  }
+  .hmHeAc {
+    font-size: 22px;
+    padding: 18px 0;
+  }
+  .hmHeAd {
+    font-size: 18px;
+  }
+  .hmHf {
+    font-size: 30px;
+    padding: 30px 0;
+  }
 }
-.hmJa {
-  padding: 30px;
-}
-.hmJaA {
-  text-align: center;
-  font-size: 36px;
-  color: #262626;
-  padding: 30px;
-  font-weight: 300;
-}
-.hmJaB {
-}
-.hmJb {
-  height: 30vw;
-  background-image: url(../assets/background/bg3.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// */

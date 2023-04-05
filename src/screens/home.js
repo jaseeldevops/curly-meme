@@ -1,8 +1,18 @@
 import React, { Component, StrictMode, useRef } from "react";
+import { AppHeader, AppFooter } from "../widgets/headerFooter";
 import "../styles/hm.css";
 
 export default class HomeScreen extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      ////////////////// SCREEN FUNCTION /////////////////////
+      navScreen: props.navScreen,
+    };
+  }
+
   render() {
+    const state = this.state;
     return (
       <StrictMode>
         <div className="hmB">
@@ -13,10 +23,6 @@ export default class HomeScreen extends Component {
           <div className="hmBb" />
         </div>
         {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
         <div className="hmC">
           <div className="hmCa">Introducing</div>
           <div className="hmCb">IE.Money</div>
@@ -26,30 +32,11 @@ export default class HomeScreen extends Component {
           </div>
           <div className="hmCd">Join The Waitlist</div>
         </div>
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
         <Container3 />
         <Container4 />
-        <Container5 />
-        <MyFooter />
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
-        {/* //////////////////////////////////////////////////////////////// */}
-        <div className="hmA">
-          <div className="hmAa" />
-          <div className="hmAb">
-            <div className="hmAbA">About Us</div>
-            <div className="hmAbA">IE Money</div>
-            <div className="hmAbA">Resourses</div>
-            <div className="hmAbA">Grand Application</div>
-            <div className="hmAbB">Get IE Money</div>
-          </div>
-        </div>
+        <Container5 state={state} />
+        <AppFooter state={state} />
+        <AppHeader state={state} />
       </StrictMode>
     );
   }
@@ -70,23 +57,61 @@ function Container3() {
           individuals, NGOs and mother nature to achieve mutual prosperity.
         </div>
       </div>
-      {[1, 1, 1, 1, 1, 1].map((it, k) => (
-        <div className="hmEb">
-          <div className="hmEbA">
-            <div className="hmEbAa">
-              {k < 9 ? "0" : ""}
-              {k + 1}
-            </div>
-            <div className="hmEbAb" onClick={executeScroll} />
-          </div>
-          <div className="hmEbB">
-            <div className="hmEbBa">Bring A Smile</div>
-            <div className="hmEbBb">
-              Human health and happines are central to our mission!
-            </div>
+
+      <div className="hmEb c10">
+        <div className="hmEbA">
+          <div className="hmEbAa">01</div>
+          <div className="hmEbAb" onClick={executeScroll} />
+        </div>
+        <div className="hmEbB">
+          <div className="hmEbBa">Bring A Smile</div>
+          <div className="hmEbBb">
+            Human health and happines are central to our mission!
           </div>
         </div>
-      ))}
+      </div>
+      <div className="hmEb c11">
+        <div className="hmEbA">
+          <div className="hmEbAa">02</div>
+          <div className="hmEbAb" onClick={executeScroll} />
+        </div>
+        <div className="hmEbB">
+          <div className="hmEbBa">Regenerative Economy</div>
+          <div className="hmEbBb">
+            Make the world a better place for future generation not only gives
+            our lives meaning, purpose and ethical value, but it provides
+            economic, health and social benifit as well.
+          </div>
+        </div>
+      </div>
+      <div className="hmEb c12">
+        <div className="hmEbA">
+          <div className="hmEbAa">03</div>
+          <div className="hmEbAb" onClick={executeScroll} />
+        </div>
+        <div className="hmEbB">
+          <div className="hmEbBa">Preserve Biodiversity</div>
+          <div className="hmEbBb">
+            Nature isn't just nice to look at, it is essential for food
+            production, a thriving economy and human survival
+          </div>
+        </div>
+      </div>
+      <div className="hmEb c13">
+        <div className="hmEbA">
+          <div className="hmEbAa">04</div>
+          <div className="hmEbAb" onClick={executeScroll} />
+        </div>
+        <div className="hmEbB">
+          <div className="hmEbBa">Empower Communities</div>
+          <div className="hmEbBb">
+            Human have been the most ingenious and social species on the planet.
+            While we are far from perfect, our ability to share, cooperate,
+            learn from and help each other are the keys for us to prospor in the
+            short loang run.
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
@@ -102,7 +127,8 @@ function Container4() {
   );
 }
 
-function Container5() {
+function Container5({ state }) {
+  const { navScreen } = state;
   return (
     <div className="hmH">
       <div className="hmHa">HOW IT WORKS</div>
@@ -152,24 +178,24 @@ function Container5() {
       {/* /////////////////////////////////////////////////////////////// */}
       <div className="hmHa">OUR NETWORK</div>
       <div className="hmHd">
-        <div className="hmHdA">
+        <div className="hmHdA c20" onClick={() => navScreen("/networks")}>
           <div className="hmHdAa">INDIVIDUALS</div>
         </div>
-        <div className="hmHdA">
+        <div className="hmHdA c21" onClick={() => navScreen("/networks")}>
           <div className="hmHdAa">NGOs AND NON PROFIT ORGANIZATION</div>
         </div>
-        <div className="hmHdA">
+        <div className="hmHdA c22" onClick={() => navScreen("/networks")}>
           <div className="hmHdAa">
             LANDOWNERS-ENVIRONMENTAL SERVICE PROVIDERS
           </div>
         </div>
-        <div className="hmHdA">
+        <div className="hmHdA c23" onClick={() => navScreen("/networks")}>
           <div className="hmHdAa">IMPACT INVESTORS</div>
         </div>
-        <div className="hmHdA">
+        <div className="hmHdA c24" onClick={() => navScreen("/networks")}>
           <div className="hmHdAa">BUSINESSES</div>
         </div>
-        <div className="hmHdA">
+        <div className="hmHdA c25" onClick={() => navScreen("/networks")}>
           <div className="hmHdAa">ENVIRONMENTAL ACCOUNTANTS</div>
         </div>
       </div>
@@ -179,35 +205,47 @@ function Container5() {
       {/* /////////////////////////////////////////////////////////////// */}
       <div className="hmHa">BLOGS</div>
       <div className="hmHe">
-        {[1, 1, 1, 1].map((it, k) => (
-          <div className="hmHeA" key={k}>
-            <div className="hmHeAa">
-              <div className="hmHeAaA" />
-              <div className="hmHeAaB">Paul Sheparo</div>
-              <div className="hmHeAaC">29 Aug 2022</div>
-            </div>
-            <div className="hmHeAb"></div>
-            <div className="hmHeAc">Forestation in Nepal</div>
-            <div className="hmHeAd">
-              breaking new ground with carbon removal purchases and investments
-              to help nvestments to help nvestments to help
-            </div>
+        <div className="hmHeA">
+          <div className="hmHeAa">
+            <div className="hmHeAaA" />
+            <div className="hmHeAaB">Paul Sheparo</div>
+            <div className="hmHeAaC">29 Aug 2022</div>
           </div>
-        ))}
+          <div className="hmHeAb"></div>
+          <div className="hmHeAc">Forestation in Nepal</div>
+          <div className="hmHeAd">
+            breaking new ground with carbon removal purchases and investments to
+            help nvestments to help nvestments to help
+          </div>
+        </div>
+        <div className="hmHeA">
+          <div className="hmHeAa">
+            <div className="hmHeAaA" />
+            <div className="hmHeAaB">Paul Sheparo</div>
+            <div className="hmHeAaC">29 Aug 2022</div>
+          </div>
+          <div className="hmHeAb"></div>
+          <div className="hmHeAc">Forestation in Nepal</div>
+          <div className="hmHeAd">
+            breaking new ground with carbon removal purchases and investments to
+            help nvestments to help nvestments to help
+          </div>
+        </div>
+        <div className="hmHeA">
+          <div className="hmHeAa">
+            <div className="hmHeAaA" />
+            <div className="hmHeAaB">Paul Sheparo</div>
+            <div className="hmHeAaC">29 Aug 2022</div>
+          </div>
+          <div className="hmHeAb"></div>
+          <div className="hmHeAc">Forestation in Nepal</div>
+          <div className="hmHeAd">
+            breaking new ground with carbon removal purchases and investments to
+            help nvestments to help nvestments to help
+          </div>
+        </div>
       </div>
       <div className="hmHf">WHERE DO YOU FIT INTO THIS POWERFUL NETWORK?</div>
-    </div>
-  );
-}
-
-function MyFooter() {
-  return (
-    <div className="hmJ">
-      <div className="hmJa">
-        <div className="hmJaA">Subscribe to our newsletters</div>
-        <div className="hmJaB"></div>
-      </div>
-      <div className="hmJb"></div>
     </div>
   );
 }

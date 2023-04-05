@@ -1,0 +1,24 @@
+.blA {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/background/bg6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8%;
+  color: white;
+  text-align: center;
+}
+.blAa {
+  font-weight: bold;
+  font-size: 74px;
+}
+.blAb {
+  padding: 4% 8%;
+  font-size: 48px;
+}

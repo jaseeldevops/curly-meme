@@ -1,0 +1,19 @@
+.wiA {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/background/bg4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8%;
+}
+.wiAa {
+  font-size: 74px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
