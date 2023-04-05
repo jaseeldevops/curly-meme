@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.75e4dfc5.css",
+    "main.js": "/static/js/main.d025e213.js",
+    "static/js/787.cd9bcce1.chunk.js": "/static/js/787.cd9bcce1.chunk.js",
+    "static/media/bg2.png": "/static/media/bg2.9648a3fdaa7394ac5158.png",
+    "static/media/0.png": "/static/media/0.aed12b054865de07c21c.png",
+    "static/media/1.png": "/static/media/1.37f42111d5d91cb499ff.png",
+    "static/media/2.png": "/static/media/2.0e69fd1a65e5ca5b4acf.png",
+    "static/media/3.png": "/static/media/3.fcc915c2e4397788da0c.png",
+    "static/media/bg1.png": "/static/media/bg1.d47dbcb931b22465fb0b.png",
+    "static/media/bg3.png": "/static/media/bg3.a50d8f38e3b4fc4d5ace.png",
+    "static/media/5.png": "/static/media/5.8cf663063d3c71059656.png",
+    "static/media/4.png": "/static/media/4.147ec689c19d198eabdb.png",
+    "static/media/Helvetica.ttf": "/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
+    "static/media/helvetica-light-587ebe5a59211.ttf": "/static/media/helvetica-light-587ebe5a59211.6e816f786a7f97793401.ttf",
+    "static/media/myLogo.svg": "/static/media/myLogo.e75cf10ae5fd08fc518f.svg",
+    "index.html": "/index.html",
+    "static/media/arrowDown.svg": "/static/media/arrowDown.965e6f865f8dfb6d9bd3.svg",
+    "main.75e4dfc5.css.map": "/static/css/main.75e4dfc5.css.map",
+    "main.d025e213.js.map": "/static/js/main.d025e213.js.map",
+    "787.cd9bcce1.chunk.js.map": "/static/js/787.cd9bcce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75e4dfc5.css",
+    "static/js/main.d025e213.js"
+  ]
+}
