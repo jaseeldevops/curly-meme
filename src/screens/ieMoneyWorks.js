@@ -76,7 +76,46 @@ export default class IeMoneyWorksScreen extends Component {
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
-        <div className="ieC"></div>
+        <div className="ieC">
+          <div className="ieCa">
+            <div className="ieCaA">1. DISTRIBUTION</div>
+            <div className="ieCaB">
+              IE point tokens are distributed to Ecosystem Service Stakeholders,
+              Impact Investors, Natural Asset Owners & Nonprofits.
+            </div>
+          </div>
+          <div className="ieCa">
+            <div className="ieCaA">2. CIRCULATION</div>
+            <div className="ieCaB">
+              Like gift cards, loyalty points and government currency, value can
+              be:
+              <div className="ieCaBa">
+                <div className="ieCaBaA">
+                  <div className="ieCaBaAa" />
+                  <div className="ieCaBaAb">USED FOR PURCHASES</div>
+                </div>
+                <div className="ieCaBaA">
+                  <div className="ieCaBaAa" />
+                  <div className="ieCaBaAb">TRANSFERRED/ GIFTED/ DONATED</div>
+                </div>
+                <div className="ieCaBaA">
+                  <div className="ieCaBaAa" />
+                  <div className="ieCaBaAb">
+                    GIVEN AS A REWARD TO INCENTIVIZE
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="ieCa">
+            <div className="ieCaA">3. REDEEM</div>
+            <div className="ieCaB">
+              Merchants & Ecosystem Partners who accept ie.Money as payment can
+              redeem ie.Money for local currency like $USD OR
+              spend/transfer/gift/donate within the Impact Ecosystem.
+            </div>
+          </div>
+        </div>
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}

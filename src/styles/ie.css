@@ -81,6 +81,83 @@
 /* ////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////// */
+.ieC {
+  padding: 6%;
+  padding-bottom: 100px;
+}
+.ieCa {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+.ieCaA {
+  width: 40%;
+  font-weight: bold;
+  font-size: 56px;
+  margin-right: 4%;
+}
+.ieCaB {
+  width: 56%;
+  font-size: 32px;
+}
+.ieCaBa {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.ieCaBaA {
+  display: flex;
+  width: 30%;
+  max-width: 30%;
+  overflow: hidden;
+}
+.ieCaBaAa {
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  background-color: #09a503;
+  margin: 4px;
+  margin-right: 20px;
+}
+.ieCaBaAb {
+  font-size: 22px;
+}
+@media only screen and (max-width: 800px) {
+  .ieCa {
+    padding: 15px 0;
+  }
+  .ieCaA {
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 6px;
+  }
+  .ieCaB {
+    width: 100%;
+    font-size: 18px;
+  }
+  .ieCaBa {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .ieCaBaA {
+    width: 100%;
+    max-width: 100%;
+  }
+  .ieCaBaAa {
+    width: 12px;
+    min-width: 12px;
+    height: 12px;
+    margin-right: 10px;
+  }
+  .ieCaBaAb {
+    font-size: 14px;
+  }
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
 .ieD {
   padding: 0 6%;
 }
