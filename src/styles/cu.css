@@ -30,3 +30,47 @@
     font-size: 20px;
   }
 }
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+.cuB {
+  padding: 6%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.cuBa {
+  width: 49%;
+  box-sizing: border-box;
+  background-color: #81818122;
+  border-radius: 24px;
+  padding: 100px 10px;
+}
+.cuBaA {
+  font-size: 38px;
+  text-align: center;
+  line-height: 70px;
+}
+.cuBaAa {
+  font-size: 48px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 800px) {
+  .cuBa {
+    width: 100%;
+    margin: 20px 0;
+    padding: 60px 10px;
+  }
+  .cuAb {
+    font-size: 20px;
+  }
+  .cuBaA {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .cuBaAa {
+    font-size: 32px;
+  }
+}

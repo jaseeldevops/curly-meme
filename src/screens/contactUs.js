@@ -19,6 +19,20 @@ export default class ContactUsScreen extends Component {
           <div className="cuAa">CONTACT US</div>
           <div className="cuAb">We love to hear from you.</div>
         </div>
+        <div className="cuB">
+          <div className="cuBa">
+            <div className="cuBaA">
+              <div className="cuBaAa">Reach us out at:</div>hello@ie.money
+            </div>
+          </div>
+          <div className="cuBa">
+            <div className="cuBaA">
+              <div className="cuBaAa">Schedule a meeting</div>Select date and
+              time
+            </div>
+          </div>
+        </div>
+      
         <AppFooter state={state} />
         <AppHeader state={state} />
       </StrictMode>

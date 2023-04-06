@@ -131,12 +131,12 @@ export default class OurTeamScreen extends Component {
         {/* /////////////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////////////// */}
-        <div className="itG">
-          <div className="itGa" />
-          <div className="itGb">
-            <div className="itGbA">From Our Founder</div>
-            <div className="itGbB"></div>
-            <div className="itGbC">
+        <div className="otG">
+          <div className="otGa" />
+          <div className="otGb">
+            <div className="otGbA">From Our Founder</div>
+            <div className="otGbB"></div>
+            <div className="otGbC">
               The impact of an individual on the world is often underestimated.
               Every decision we make, no matter how small, has the potential to
               influence the world around us in a significant way. From choosing
@@ -149,20 +149,20 @@ export default class OurTeamScreen extends Component {
         {/* /////////////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////////////// */}
-        <div className="itH">
-          <div className="itHa">JOIN OUR TEAM</div>
-          <div className="itHb">
+        <div className="otH">
+          <div className="otHa">JOIN OUR TEAM</div>
+          <div className="otHb">
             Get your career moving, be part of something bigger than you or us,
             be a change maker.
           </div>
-          <div className="itHc">See career opportunities</div>
+          <div className="otHc">See career opportunities</div>
         </div>
         {/* /////////////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////////////// */}
-        <div className="itI">
+        <div className="otI">
           {partners.map((it, k) => (
-            <img className="itIa" src={it} key={k} />
+            <img className="otIa" src={it} key={k} />
           ))}
         </div>
         <AppFooter state={state} />
