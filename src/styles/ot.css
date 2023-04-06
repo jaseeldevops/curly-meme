@@ -107,3 +107,125 @@
     font-size: 30px;
   }
 }
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+.itG {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 0;
+  background-image: url(../assets/icons/coma1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 320px;
+}
+.itGa {
+  width: 40%;
+  height: 45vw;
+  background-image: url(../assets/background/bg5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.itGb {
+  width: 60%;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+.itGbA {
+  font-size: 48px;
+  font-weight: bold;
+}
+.itGbB {
+  height: 7px;
+  background-color: #707070;
+  width: 40%;
+  margin: 20px 0;
+}
+.itGbC {
+  font-size: 40px;
+}
+@media only screen and (max-width: 800px) {
+  .itGa {
+    width: 100%;
+    height: 110vw;
+  }
+  .itGb {
+    width: 100%;
+  }
+  .itGbA {
+    font-size: 32px;
+    padding-top: 20px;
+  }
+  .itGbB {
+    height: 5px;
+    width: 40%;
+    margin: 10px 0;
+  }
+  .itGbC {
+    font-size: 18px;
+  }
+}
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+.itH {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.itHa {
+  color: #045d00;
+  font-weight: bold;
+  font-size: 108px;
+  text-align: center;
+}
+.itHb {
+  font-size: 32px;
+  padding: 30px 0;
+  text-align: center;
+  font-style: italic;
+}
+.itHc {
+  font-size: 24px;
+  padding: 20px 30px;
+  border-radius: 45px;
+  background-color: #6b8163;
+  color: white;
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  .itHa {
+    font-size: 40px;
+  }
+  .itHb {
+    font-size: 18px;
+  }
+  .itHc {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+}
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+.itI {
+  padding: 6% 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.itIa {
+  width: 230px;
+  padding: 20px;
+  object-fit: contain;
+}

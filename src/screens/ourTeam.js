@@ -14,6 +14,11 @@ const card2Data = {
   desc: "The impact of an individual on the world is often underestimated. Every decision we make, no matter how small, has the potential to influence the world around us in a significant way. From choosing to recycle a plastic bottle to volunteering at a local charity, every action we take has the potential to make a positive difference in someone's life or to the environment.",
 };
 
+const card2Data1 = {
+  title: "Proud Assossiations",
+  desc: "Collaborating with sustainable and charitable organizations is an excellent way for businesses to make a positive impact on the world. By partnering with these organizations, businesses can not only improve their social and environmental responsibility, but they can also gain valuable insights and support from the non-profit sector.",
+};
+
 const founders = [
   {
     name: "Matt Elston",
@@ -36,6 +41,31 @@ const founders = [
     words:
       "Materialising unconventional concepts and redefining design processes",
   },
+];
+
+const workers = [
+  {
+    name: "H. Mossini",
+    position: "CEO - RENEWABLE ENERGY TRUST",
+    img: require("../assets/publicImg/men1.png"),
+    words:
+      "Stop the pollution, stop the damage: Let's heal the planet together.",
+  },
+  {
+    name: "M. Tahir",
+    position: "CFO - RIDDI'ME COLLECTIVE",
+    img: require("../assets/publicImg/men2.png"),
+    words:
+      "Think globally, act locally: Join the fight against climate change.",
+  },
+];
+
+const partners = [
+  require("../assets/publicImg/team1.png"),
+  require("../assets/publicImg/team2.png"),
+  require("../assets/publicImg/team3.png"),
+  require("../assets/publicImg/team4.png"),
+  require("../assets/publicImg/team5.png"),
 ];
 
 export default class OurTeamScreen extends Component {
@@ -79,6 +109,61 @@ export default class OurTeamScreen extends Component {
             LEVEL THE CAUSE, HELPING US BUILD MONEY WITH MEANING FOR BETTER
             TOMORROW.
           </div>
+        </div>
+        <Card2 data={card2Data1} />
+        <div className="otD">
+          {workers.map((it, k) => (
+            <div className="otDa" key={k}>
+              <div
+                className="otDaA"
+                style={{
+                  backgroundImage: `url(${it?.img})`,
+                  width: 120,
+                  height: 120,
+                }}
+              ></div>
+              <div className="otDaB">{it?.name}</div>
+              <div className="otDaC">{it?.position}</div>
+              <div className="otDaD">{it?.words}</div>
+            </div>
+          ))}
+        </div>
+        {/* /////////////////////////////////////////////////////////// */}
+        {/* /////////////////////////////////////////////////////////// */}
+        {/* /////////////////////////////////////////////////////////// */}
+        <div className="itG">
+          <div className="itGa" />
+          <div className="itGb">
+            <div className="itGbA">From Our Founder</div>
+            <div className="itGbB"></div>
+            <div className="itGbC">
+              The impact of an individual on the world is often underestimated.
+              Every decision we make, no matter how small, has the potential to
+              influence the world around us in a significant way. From choosing
+              to recycle a plastic bottle to volunteering at a local charity,
+              every action we take has the potential to make a positive
+              difference in someone's life or to the environment.
+            </div>
+          </div>
+        </div>
+        {/* /////////////////////////////////////////////////////////// */}
+        {/* /////////////////////////////////////////////////////////// */}
+        {/* /////////////////////////////////////////////////////////// */}
+        <div className="itH">
+          <div className="itHa">JOIN OUR TEAM</div>
+          <div className="itHb">
+            Get your career moving, be part of something bigger than you or us,
+            be a change maker.
+          </div>
+          <div className="itHc">See career opportunities</div>
+        </div>
+        {/* /////////////////////////////////////////////////////////// */}
+        {/* /////////////////////////////////////////////////////////// */}
+        {/* /////////////////////////////////////////////////////////// */}
+        <div className="itI">
+          {partners.map((it, k) => (
+            <img className="itIa" src={it} key={k} />
+          ))}
         </div>
         <AppFooter state={state} />
         <AppHeader state={state} />
