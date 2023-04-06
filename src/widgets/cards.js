@@ -17,3 +17,15 @@ export function Card1({ reverse, data }) {
     </div>
   );
 }
+
+export function Card2({ data }) {
+  return (
+    <div className="cdE">
+      <div className="cdEa">
+        <div className="cdEaA" />
+        <div className="cdEaB">{data?.title}</div>
+      </div>
+      <div className="cdEb">{data?.desc}</div>
+    </div>
+  );
+}

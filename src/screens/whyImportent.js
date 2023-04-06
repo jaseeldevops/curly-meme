@@ -1,36 +1,39 @@
 import React, { Component, StrictMode } from "react";
 import { AppHeader, AppFooter } from "../widgets/headerFooter";
 import "../styles/wi.css";
-import { Card1 } from "../widgets/cards";
+import { Card1, Card2 } from "../widgets/cards";
 
 const cardsData = [
   {
     name: "Carbon",
     title: "Our carbon negative projects >",
-    img: require("../assets/cardImg/why2.png"),
+    img: require("../assets/publicImg/why2.png"),
     desc: "To meet our commitment to be carbon negative by 2030, we’re improving efficiencies; delivering technology to help our customers report and reduce their carbon emissions more effectively; and breaking new ground with carbon removal purchases and investments to help develop the carbon removal markets.",
   },
   {
     name: "Water",
     title: "Our water conservation projects >",
-    img: require("../assets/cardImg/why3.png"),
+    img: require("../assets/publicImg/why3.png"),
     desc: "To meet our commitment to be water positive by 2030, we will continue our water stewardship work across our operations. We're also expanding access to clean water and replenishment projects.",
   },
   {
     name: "Forestation",
     title: "Our carbon negative projects >",
-    img: require("../assets/cardImg/why1.png"),
+    img: require("../assets/publicImg/why1.png"),
     desc: "To meet our commitment to be carbon negative by 2030, we’re improving efficiencies; delivering technology to help our customers report and reduce their carbon emissions more effectively; and breaking new ground with carbon removal purchases and investments to help develop the carbon removal markets.",
   },
   {
     name: "Ethical Sustainability",
     title: "Our Ethical projects >",
-    img: require("../assets/cardImg/why3.png"),
+    img: require("../assets/publicImg/why3.png"),
     desc: "To meet our commitment to be water positive by 2030, we will continue our water stewardship work across our operations. We're also expanding access to clean water and replenishment projects.",
   },
 ];
 
-const bannerTitle = "";
+const card2Data = {
+  title: "How we are impacting with small steps",
+  desc: "The impact of an individual on the world is often underestimated. Every decision we make, no matter how small, has the potential to influence the world around us in a significant way. From choosing to recycle a plastic bottle to volunteering at a local charity, every action we take has the potential to make a positive difference in someone's life or to the environment.",
+};
 
 export default class WhyImportentScreen extends Component {
   constructor(props) {
@@ -51,20 +54,7 @@ export default class WhyImportentScreen extends Component {
             IMPACT INVESTMENTS, NATURAL CAPITAL & TEAM HUMANITY
           </div>
         </div>
-        <div className="wiB">
-          <div className="wiBa">
-            <div className="wiBaA" />
-            <div className="wiBaB">How we are impacting with small steps</div>
-          </div>
-          <div className="wiBb">
-            The impact of an individual on the world is often underestimated.
-            Every decision we make, no matter how small, has the potential to
-            influence the world around us in a significant way. From choosing to
-            recycle a plastic bottle to volunteering at a local charity, every
-            action we take has the potential to make a positive difference in
-            someone's life or to the environment.
-          </div>
-        </div>
+        <Card2 data={card2Data} />
         <div className="wiC">
           IMPACT INVESTMENTS, NATURAL CAPITAL & TEAM HUMANITY ALL IN ONE PLACE,
           AVAILABLE ANYWHERE. WE MAKE IT EASIER FOR NGO'S NETWORK WITH OTHER
