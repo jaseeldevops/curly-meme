@@ -47,7 +47,32 @@ export default class IeMoneyWorksScreen extends Component {
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
-        <div className="ieB"></div>
+        <div className="ieB">
+          <div className="ieBaA">
+            <div className="ieBaAa" />
+            <div className="ieBaAb">DISTRIBUTION</div>
+            <div className="ieBaAc">STAKEHOLDERS</div>
+            <div className="ieBaAc">IMPACT INVESTORS</div>
+            <div className="ieBaAc">NATURAL ASSET OWNERS</div>
+            <div className="ieBaAc">NONPROFITS</div>
+          </div>
+          <div className="ieBaA">
+            <div className="ieBaAa_1" />
+            <div className="ieBaAb">CIRCULATION</div>
+            <div className="ieBaAc">PURCHASES</div>
+            <div className="ieBaAc">LOYALTY POINTS</div>
+            <div className="ieBaAc">REWARDS</div>
+            <div className="ieBaAc">NONPROFITS</div>
+          </div>
+          <div className="ieBaA">
+            <div className="ieBaAa_2" />
+            <div className="ieBaAb">REDEEM</div>
+            <div className="ieBaAc">REDEEM TO USD</div>
+            <div className="ieBaAc">TRANSFER</div>
+            <div className="ieBaAc">MERCHANT PAYMENT</div>
+            <div className="ieBaAc">DONATE</div>
+          </div>
+        </div>
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
@@ -55,7 +80,18 @@ export default class IeMoneyWorksScreen extends Component {
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
-        <div className="ieD"></div>
+        <div className="ieD">
+          <div className="ieDa">OUR AREA OF FOCUS</div>
+          <div className="ieDb">
+            We are committed to create a sustainable approach is that takes into
+            account the social, environmental, and economic impacts of its
+            operations and seeks to create long-term value for all stakeholders,
+            including shareholders, employees, customers, and the broader
+            community. This approach involves integrating sustainability
+            considerations into every aspect of the business, from product
+            design and supply chain management to marketing and communications.
+          </div>
+        </div>
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
         {/* /////////////////////////////////////////////////// */}
