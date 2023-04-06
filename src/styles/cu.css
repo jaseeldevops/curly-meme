@@ -22,3 +22,11 @@
 .cuAb {
   font-size: 48px;
 }
+@media only screen and (max-width: 800px) {
+  .cuAa {
+    font-size: 32px;
+  }
+  .cuAb {
+    font-size: 20px;
+  }
+}

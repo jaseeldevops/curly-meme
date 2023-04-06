@@ -16,10 +16,19 @@
   color: white;
   font-size: 28px;
   text-align: center;
+  padding-bottom: 20px;
 }
 .otAb {
   font-size: 74px;
   color: white;
   font-weight: bold;
   text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .otAa {
+    font-size: 18px;
+  }
+  .otAb {
+    font-size: 30px;
+  }
 }

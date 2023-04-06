@@ -64,10 +64,66 @@ export function AppHeader({ state }) {
         <div className="hfAbC" onClick={() => setisNavDrower(!isNavDrower)}>
           {isNavDrower ? (
             <div className="hfAbCa">
-              <div className="hfAbCaA">About Us</div>
-              <div className="hfAbCaA">IE Money</div>
-              <div className="hfAbCaA">Resourses</div>
-              <div className="hfAbCaA">Grand Application</div>
+              <div className="hfAbCaA">
+                <b>About Us</b>
+              </div>
+              <div
+                className="hfAbAaA"
+                onClick={() => navScreen("/whyImportent")}
+              >
+                Why Impact Ecosystem
+              </div>
+              <div className="hfAbAaA" onClick={() => navScreen("/ourTeam")}>
+                Our Team
+              </div>
+              <div className="hfAbAaA" onClick={() => navScreen("/")}>
+                Careers
+              </div>
+              <div className="hfAbAaA" onClick={() => navScreen("/")}>
+                Community
+              </div>
+              <div className="hfAbAaA" onClick={() => navScreen("/contactUs")}>
+                Contact Us
+              </div>
+              {/* ///////////////////////// */}
+              <div className="hfAbCaA">
+                <b>IE Money</b>
+              </div>
+
+              <div
+                className="hfAbAaA"
+                onClick={() => navScreen("/ieMoneyWorks")}
+              >
+                How IE Money Works
+              </div>
+              <div className="hfAbAaA" onClick={() => navScreen("/")}>
+                Area Of Work
+              </div>
+              <div className="hfAbAaA" onClick={() => navScreen("/")}>
+                Developer Tools
+              </div>
+              {/* ///////////////////////// */}
+              <div className="hfAbCaA">
+                <b>Resourses</b>
+              </div>
+
+              <div className="hfAbAaA" onClick={() => navScreen("/blogs")}>
+                Blogs
+              </div>
+              <div className="hfAbAaA" onClick={() => navScreen("/")}>
+                Case Studies
+              </div>
+              <div className="hfAbAaA" onClick={() => navScreen("/")}>
+                E-Books
+              </div>
+              <div className="hfAbAaA" onClick={() => navScreen("/")}>
+                Impact Stories
+              </div>
+              {/* ///////////////////////// */}
+              <div className="hfAbCaA">
+                <b>Grand Application</b>
+              </div>
+              {/* ///////////////////////// */}
             </div>
           ) : null}
         </div>
