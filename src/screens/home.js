@@ -18,7 +18,7 @@ export default class HomeScreen extends Component {
     return (
       <StrictMode>
         <div className="hmB">
-          <video autoplay loop muted className="hmBa">
+          <video autoPlay loop muted className="hmBa">
             <source src={bgVedio} type="video/mp4" />
           </video>
           <br />
