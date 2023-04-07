@@ -2,6 +2,8 @@ import React, { Component, StrictMode, useRef } from "react";
 import { AppHeader, AppFooter } from "../widgets/headerFooter";
 import "../styles/hm.css";
 
+import bgVedio from "../assets/background/bg1.mp4";
+
 export default class HomeScreen extends Component {
   constructor(props) {
     super(props);
@@ -16,11 +18,14 @@ export default class HomeScreen extends Component {
     return (
       <StrictMode>
         <div className="hmB">
+          <video autoplay loop muted className="hmBa">
+            <source src={bgVedio} type="video/mp4" />
+          </video>
           <br />
-          <div className="hmBa">
+          <div className="hmBb">
             IMPACT <b>ECOSYSTEM</b>
           </div>
-          <div className="hmBb" />
+          <div className="hmBc" />
         </div>
         {/* //////////////////////////////////////////////////////////////// */}
         <div className="hmC">

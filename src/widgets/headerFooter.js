@@ -167,11 +167,25 @@ export function AppFooter({ state }) {
           </div>
         </div>
         <div className="hfDbB">
-          <div className="hfDbBa" />
-          <div className="hfDbBb" />
-          <div className="hfDbBc" />
-          <div className="hfDbBd" />
-          <div className="hfDbBe" />
+          <div className="hfDbBa" onClick={() => {}} />
+          <div
+            className="hfDbBb"
+            onClick={() => window.open("https://twitter.com/iemoneyhq")}
+          />
+          <div
+            className="hfDbBc"
+            onClick={() =>
+              window.open("https://www.linkedin.com/company/impact-ecosystem/")
+            }
+          />
+          <div
+            className="hfDbBd"
+            onClick={() => window.open("https://www.instagram.com/ie_money/")}
+          />
+          <div
+            className="hfDbBe"
+            onClick={() => window.open("https://impactecosystem.medium.com/")}
+          />
         </div>
       </div>
     </div>

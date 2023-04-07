@@ -5,22 +5,27 @@
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url(../assets/background/bg1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 .hmBa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.hmBb {
   font-size: 110px;
   color: white;
   font-weight: 300;
   margin-top: 50px;
 }
-.hmBb {
+.hmBc {
   height: 58px;
   width: 27px;
   background-image: url(../assets/icons/arrowDown.svg);
@@ -30,7 +35,7 @@
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 800px) {
-  .hmBa {
+  .hmBb {
     font-size: 30px;
     color: white;
     font-weight: 300;
